@@ -29,7 +29,7 @@ public class dentalController {
 
 		Login dbLogin = session.get(Login.class, login.getPassword()); // gopal // sagar
 
-		String page = "gopal";
+		String page = "loginpage";
 		String msg = null;
 		if (dbLogin != null) {
 			if (login.getUsername().equals(dbLogin.getUsername())) { // 1234 //1234
